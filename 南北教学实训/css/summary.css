@@ -1,0 +1,159 @@
+/*导航栏设置*/
+.navigation{
+    width: 1200px;height: 24px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+.navigation label{
+    width: auto;line-height: 16px;
+    float: left;
+    font-size: 14px;
+    color: #323232;
+}
+.navigation span{
+    float: left;
+}
+.navigation>input{
+    width: 160px;height: 24px;
+    float: right;
+    border: 1px solid #5481E6;
+    border-radius: 2px;
+}
+.navigation>input::-webkit-input-placeholder,
+.navigation>input:-ms-input-placeholder,
+.navigation>input::-moz-placeholder{
+    opacity: 0.5;
+    font-size: 16px;
+    color: #5EB0FA;
+    line-height: 16px;
+    padding-left: 100px;
+}
+.navigation>input{
+    background-image: url("../res/img/skill-test/magnifier.png");
+    background-position: left;
+    background-size: 14px 14px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    padding-left: 20px;
+    font-size: 14px;
+}
+.navigation>input::-webkit-input-placeholder{
+    text-align: right;
+}
+.navigation>input:-ms-input-placeholder{
+    text-align: right;
+}
+.navigation>input:-moz-placeholder{
+    text-align: right;
+    padding-right: 10px;
+}
+.navigation>input::-moz-placeholder{
+    text-align: right;
+}
+
+.content{width: 1200px;min-height: 900px;margin: 0 auto;overflow: hidden}
+/*章节选择*/
+.content>section{
+    width: 298px;min-height: 200px;
+    padding-bottom: 80px;
+    background: #FFFFFF;
+    border: 1px solid #C8C8C8;
+    float: left;
+}
+.content>section>.option{
+    padding-left: 20px;
+    width: 100%;line-height: 58px;
+    border-top: 1px solid #e6e6e6;
+}
+.content>section>.option:hover{  background: #E6E6E6;}
+/*选中效果*/
+.content>section>.option-sel{
+    background: #E6E6E6;
+}
+.content>section>.option-toggle{
+    padding-left: 45px;
+    width: 100%;line-height: 36px;
+}
+.content>section>.option-toggle>div:hover{ color: #5481E8;cursor: default}
+.option-tog-sel{color: #5481E8}
+.content>section>.option>label{margin-left: 10px;font-size: 18px}
+.content>section>.option>span{
+    float: right;margin-right: 10px;
+    font-weight: bold;
+}
+
+
+
+/*操作流程选项卡*/
+.content>content{
+    width: 820px;min-height: 200px;
+    float: right;
+    margin-left: 40px;
+    background: #FFFFFF;
+    border: 1px solid #C8C8C8;
+    padding: 20px 20px 50px;
+}
+.content>content>.nav-tabs{
+    width: 820px;height: 70px;
+    overflow: hidden;
+    font-size: 22px;
+    color: #969696;
+    border-bottom: 1px solid #969696;
+    padding-top: 5px;
+}
+.content>content>.nav-tabs>.tabs-hd{
+    float: left;line-height: 40px;font-size: 22px;
+}
+.content>content>.nav-tabs>.tabs-title{
+    width: 170px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+.content>content>.nav-tabs>.tabs-f{
+    width: 0;height: 40px;
+    border: 1px solid #969696;
+}
+.content>content>.nav-tabs>.tabs-title:hover{ color: #2CB0FB}
+
+.content>content>.tab-content{padding-left: 40px}
+.content>content>.tab-content label{
+    font-size: 16px;
+    color: #323232;
+    line-height: 16px;
+    float: right;
+    position: relative;top: 10px;right: 38px;
+}
+.content>content>.tab-content span{
+    position: relative;left: 10px;bottom: 10px;
+    font-size: 12px;
+    color: #969696;
+    line-height: 12px;
+}
+/*.link-sel{*/
+    /*background: #F0FAFF;*/
+    /*border-radius: 1px;*/
+/*}*/
+/*文档归类*/
+.content>content>.tab-content ul>li{
+    width: 220px;height: 60px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+/*视频归类*/
+.tab-content-video{
+    display: none;
+}
+/*PPT归类*/
+.tab-content-PPT{
+    display: none;
+}
+/*选中效果*/
+.content>content>.tab-content ul>li:hover{ background: #F0FAFF;
+    border-radius: 1px;}
+.tabs-sel{
+    color: #2CB0FB;
+}
+
+

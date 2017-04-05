@@ -1,0 +1,80 @@
+.content{
+    width: 1200px;min-height: 1080px;
+    margin: 0 auto;
+}
+
+.content>.navigation{
+    width: 201px;line-height: 56px;
+
+    color: #323232;
+}
+.content>.navigation>label,
+.content>.navigation>span{
+    font-size: 14px;
+}
+.content>.tab{
+    width: 298px;height: 600px;
+    padding-left: 20px;padding-right: 20px;
+    background: #FFFFFF;
+    border: 1px solid #C8C8C8;
+    float: left;
+}
+.content>.tab>.option{
+    width: 260px;line-height: 58px;
+    border-top: 1px solid #E6E6E6;
+    padding-left: 10px;
+    font-size: 18px;
+    color: #666666;
+}
+.content>.tab>.option:hover{ color: #5481E6;cursor: pointer}
+/*选中效果*/
+.content>.tab>.op-sel{
+    color: #5481E6;
+}
+.content-right{
+    width: 860px;height: auto;
+    float: right;
+    padding-left: 30px;padding-top: 10px;padding-bottom: 20px;
+    background: #FFFFFF;
+    border: 1px solid #C8C8C8;
+    font-size: 16px;
+    color: #646464;
+    line-height: 16px;
+}
+.content-right .con-hd{
+    width: 820px;line-height: 42px;
+    border-bottom: 1px solid #969696;
+}
+.content-right .con-hd>label{
+    font-size: 22px;
+    color: #646464;
+    line-height: 22px;
+    font-weight: bold;
+}
+.content-right .con-hd>span{
+    margin-left: 10px;font-size: 14px;
+}
+
+.content-right .con-bd{
+    width: 780px;height: 520px;
+    margin-top: 21px;
+    line-height: 22px;
+    text-align: justify;
+}
+.con-ft{
+    margin-top: 20px;
+}
+.con-ft>label{
+    font-size: 18px;
+    color: #646464;
+    line-height: 18px;
+    font-weight: bold;
+}
+.con-ft>p{
+    margin-top: 10px;
+}
+
+
+.com{display: block}
+.about{display: none}
+.con{ display: none}

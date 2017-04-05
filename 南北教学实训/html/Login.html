@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/head_foot-com.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <!--[if lt IE 9]>
+    <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo"></div>
+            <div class="hd-link">
+                <ul class="hd-link1">
+                    <li class="hd-link1-a"><a href="">联系</a></li>
+                    <li class="hd-link1-a"><a href="">关于</a></li>
+                    <li class="hd-link1-a"><a href="">账户</a></li>
+                    <li class="hd-link1-a"><a href="">退出</a></li>
+                </ul>
+                <div style="width: 0;height: 0;clear: both"></div>
+                <ul class="hd-link2">
+                    <li class="hd-link1-b sel"><a href="#">首页</a></li>
+                    <li class="hd-link1-b"><a href="">知识概述</a></li>
+                    <li class="hd-link1-b"><a href="">考试系统</a></li>
+                    <li class="hd-link1-b"><a href="">跨境实训</a></li>
+                    <li class="hd-link1-b"><a href="">技能考评</a></li>
+                    <li class="hd-link1-b"><a href="">模拟面试</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="content" id="h">
+            <!--<img src="../static/img/login/登录页背景.png" alt="" id="bg-img">-->
+            <input type="text" value="" id="name" placeholder="用户名">
+            <input type="password" id="password" placeholder="密码">
+            <button id="login"><img src="../res/img/login/login-btn.png" alt=""></button>
+        </div>
+        <div class="load" style="display: none">
+            <div class="loading1">
+                <!--<img src="../static/video/dong.gif" alt="">-->
+            </div>
+            <label for="" class="loading2">Loading...</label>
+        </div>
+    </nav>
+
+    <footer>
+        <div class="footer">
+            <ul>
+                <li><a href="">首页</a></li>
+                <li class="ft-f">|</li>
+                <li><a href="">平台项目</a></li>
+                <li class="ft-f">|</li>
+                <li><a href="">关于我们</a></li>
+                <li class="ft-f">|</li>
+                <li><a href="">联系我们</a></li>
+            </ul>
+            <label for="" class="ft-l">Copyright © 2017 北京南北天地科技股份有限公司 版权所有</label>
+        </div>
+    </footer>
+</body>
+<script src="../js/jquery-3.1.1.min.js"></script>
+<script src="../js/common.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.content').show(function () {
+            $(this).slideDown(1500);
+        });
+
+        $('#login').click(function () {
+            $('.content').slideUp(1000);
+            $('.load').fadeIn(2000);
+
+            //设定一段时间后跳转到首页
+            setTimeout(function () {
+                window.location.href = 'index.html';
+            },2000);
+        });
+    });
+</script>
+</html>

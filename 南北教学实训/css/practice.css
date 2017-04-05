@@ -1,0 +1,16 @@
+.content{
+    width: 1200px;height: 870px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+.link{
+    width: 260px;height: 258px;
+    float: left;
+    margin-left: 163px;
+    margin-top: 105px;
+    border: 2px solid #979797;
+    border-radius: 2px;
+}
+.link:hover{
+    border: 2px solid #5481E6;
+}

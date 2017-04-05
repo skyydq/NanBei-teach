@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>技能考评-说明</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/head_foot-com.css">
+    <style>
+        .content{
+            width: 1200px;height: 700px;
+            margin: 55px auto;
+            border: 1px solid #969696;
+            padding-top: 55px;
+        }
+        .content>label{
+            width: 450px;line-height: 30px;
+            margin-left: 375px;
+            font-family: PingFangSC-Regular;
+            font-size: 30px;
+            color: #646464;
+        }
+        .content>p{
+            width: 1000px;height: 182px;
+            margin: 40px auto;
+            font-size: 22px;
+            color: #646464;
+            line-height: 30px;
+        }
+        .sel-turn{
+            width: 264px;line-height: 24px;
+            margin: 0px auto;margin-top: 300px;
+            color: #969696;
+        }
+        .sel-turn>li{
+            float: left;margin-left: 20px;
+            font-size: 24px;
+            cursor: pointer;
+        }
+        .sel-turn>li:hover{
+            color: #5481E6;
+        }
+    </style>
+    <!--[if lt IE 9]>
+    <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+    <script>
+        window.history.forward();
+    </script>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo"></div>
+            <div class="hd-link">
+                <ul class="hd-link1">
+                    <li class="hd-link1-a"><a href="#">联系</a></li>
+                    <li class="hd-link1-a"><a href="#">关于</a></li>
+                    <li class="hd-link1-a"><a href="#">账户</a></li>
+                    <li class="hd-link1-a"><a href="#">退出</a></li>
+                </ul>
+                <div style="width: 0;height: 0;clear: both"></div>
+                <ul class="hd-link2">
+                    <li class="hd-link1-b"><a href="#">首页</a></li>
+                    <li class="hd-link1-b"><a href="#1">知识概述</a></li>
+                    <li class="hd-link1-b"><a href="#2">考试系统</a></li>
+                    <li class="hd-link1-b"><a href="#3">跨境实训</a></li>
+                    <li class="hd-link1-b sel"><a href="#4">技能考评</a></li>
+                    <li class="hd-link1-b"><a href="#5">模拟面试</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="content">
+        <label>《跨境贸易的注意事项》试题说明</label>
+        <p>
+            1.全卷分为单选题，判断题两部分，各50题，每题一分，总分100分。<br>
+            2.考评分数达到80分，判定此次考评合格。<br>
+            3.考评答题时间为180分钟。<br>
+            4.全卷分为单选题，判断题两部分，各50题，每题一分，总分100分。<br>
+            5.考评分数达到80分，判定此次考评合格。<br>
+            6.考评答题时间为180分钟。<br>
+        </p>
+        <ul class="sel-turn">
+            <li id="href-sel">返回选题</li>
+            <li>|</li>
+            <li id="href-test">开始考评</li>
+        </ul>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <ul>
+                <li><a href="">首页</a></li>
+                <li class="ft-f">|</li>
+                <li><a href="">平台项目</a></li>
+                <li class="ft-f">|</li>
+                <li><a href="">关于我们</a></li>
+                <li class="ft-f">|</li>
+                <li><a href="">联系我们</a></li>
+            </ul>
+            <label for="" class="ft-l">Copyright © 2017 北京南北天地科技股份有限公司 版权所有</label>
+        </div>
+    </footer>
+</body>
+<script src="../js/jquery-3.1.1.min.js"></script>
+<script src="../js/common.js"></script>
+<script>
+    $(document).ready(function () {
+        //导航栏链接
+        $('.hd-link2').find('li:eq(1)').click(function () {
+            window.location.href = 'summary.html';
+        });
+        $('.hd-link2').find('li:eq(2)').click(function () {
+            window.location.href = 'exam.html';
+        });
+        $('.hd-link2').find('li:eq(3)').click(function () {
+            window.location.href = 'practice.html';
+        });
+        $('.hd-link2').find('li:eq(4)').click(function () {
+            window.location.href = 'skill.html';
+        });
+
+        $('#href-sel').click(function () {
+            window.location.href = 'skill.html';
+        });
+        $('#href-test').click(function () {
+            window.location.href = 'skill-test.html';
+        });
+    });
+</script>
+</html>

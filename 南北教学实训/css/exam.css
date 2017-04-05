@@ -1,0 +1,96 @@
+.content{
+    width: 1200px;height: auto;
+    margin: 55px auto;
+}
+/*考试个人信息设置*/
+.content>.per-info{
+    width: 1200px;
+    height:300px;
+    border:1px solid #C8C8C8;
+    padding: 50px 80px;
+    overflow: hidden;
+}
+.content>.per-info>div{
+    float: left;
+}
+#per-img{
+    width: 170px;height: 200px;
+    background: #E7E7E7;
+    border-radius: 2px;
+    margin-left: 20px;
+}
+#per-name{
+    width: 170px;height: 200px;
+    margin-left: 54px;
+    font-size: 22px;
+    color: #5481E6;
+    line-height: 22px;
+    font-weight: bold;
+}
+#per-name>label{
+    display: inline-block;
+    margin-top: 30px;
+}
+
+#per-ang{
+    width: 400px;height: 200px;
+    margin-left: 220px;
+    display: inline-block;text-align: center;
+    padding-top: 70px;
+}
+.per-ang1{
+    font-family: PingFangSC-Semibold;
+    font-size: 32px;
+    color: #5481E6;
+    line-height: 32px;
+}
+.per-ang2{
+    font-family: PingFangSC-Semibold;
+    font-size: 32px;
+    color: red;
+    line-height: 32px;
+}
+.per-ang3{
+    font-family: PingFangSC-Regular;
+    font-size: 24px;
+    color: #5481E6;
+    line-height: 24px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+/*考试考场需知设置*/
+.exam-notes{
+    width: 1200px;height: 460px;
+    padding: 50px 100px 30px;
+    margin-top: 50px;
+    border: 1px solid #C8C8C8;
+}
+.exam-notes>label{
+    width: 100%;
+    font-size: 30px;
+    color: #646464;
+    line-height: 30px;
+    display: inline-block;text-align: center;
+}
+.exam-notes p{
+    font-size: 22px;
+    color: #646464;
+    line-height: 28px;
+    margin-top: 30px;
+}
+.exam-notes button{
+    width: 200px;
+    height:60px;
+    margin: 30px 400px;
+    text-align: center;
+    vertical-align: middle;
+    background: transparent;
+    border: 1px solid #979797;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 22px;
+}
+.exam-notes button:hover{
+    color: #5481E6;border: 1px solid #5481E6;
+}

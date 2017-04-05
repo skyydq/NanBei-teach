@@ -1,0 +1,39 @@
+/*操作流程样式设置*/
+.content>content{
+    padding-top: 0;
+}
+.skill-nav-tabs{
+    font-size: 18px;
+    color: #646464;
+    line-height: 58px;
+    border-bottom: 1px solid #E6E6E6;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+}
+.skill-nav-tabs>label{
+    color: #5481E6;
+}
+.content>content>ul{
+    width: 820px;height: auto;
+}
+.content>content .skill-link-sel{
+    width: 100%;line-height: 50px;
+    margin-top: 20px;
+    padding-left: 20px;
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    border-radius:2px;
+}
+.content>content .sel-2n{
+    background: #E1F1FF;
+}
+.content>content .sel-2k{
+    background: #F9FCFF;
+}
+.content>content .skill-link-sel:hover{
+    background: #FFF2DC;
+}
+.content>content .link-sel{
+    background: #FFE6BB;
+}

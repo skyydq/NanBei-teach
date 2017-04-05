@@ -1,0 +1,167 @@
+.content{
+    width: 1080px;min-height: 700px;
+    margin: 0% auto;
+}
+.content>.nav{
+    width: 100%;
+    line-height: 56px;
+}
+.content>.nav>label{
+    font-size: 14px;
+}
+.content>.con{
+    width: 100%;height: auto;
+    background: #FFFFFF;
+    border: 1px solid #C8C8C8;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+.content .con-nav{
+    width: 100%;
+    line-height: 56px;
+    padding-left: 20px;
+    background: #FFFFFF;
+    border: 1px solid #C8C8C8;
+    box-shadow: 0 2px 4px 0 rgba(50,50,50,0.20);
+}
+.content .con-nav img{
+    position: relative;top: 10px;
+}
+.content .con-nav span{
+    color: red;
+}
+.content .con-nav .sp-l{
+    color: #5481E6;
+}
+/*考试题目和头部设置*/
+.con-hd{
+    width: 100%;height: auto;
+    margin: 0% auto;
+}
+.con-hd>.con-hd-title{
+    width: auto;height: auto;
+    margin: 0% auto;
+}
+.con-hd label{
+    font-size: 36px;
+    font-weight: bold;
+    color: #646464;
+    line-height: 36px;
+    display: inline-block;
+    margin-top: 50px;margin-left: 340px;
+}
+.con-hd-text{
+    width: 900px;height: 100px;
+    margin: 20px auto ;
+    border: 1px solid #979797;
+    padding: 20px 20px;
+}
+.con-hd-text p{
+    font-size: 18px;
+    color: #646464;
+    line-height: 28px;
+}
+
+/*考试考题设置*/
+.con-bd{
+    width: 970px;
+    margin-left: 50px;
+}
+.con-bd label{
+    font-size: 20px;
+    color: #323232;
+    line-height: 20px;
+}
+.con-bd ul{
+    margin-left: 20px;margin-top: 20px;
+    font-size: 20px;
+    color: #646464;
+    line-height: 22px;
+}
+.con-bd ul li{
+    margin-top: 20px;
+}
+.test-blank,.test-short{
+    margin-top: 20px;
+}
+/*答案区的设置*/
+.con-bd .sin-answer,.con-bd .blank-answer,.con-bd .short-answer{
+    width: 950px;line-height: 45px;
+    margin: 30px auto;
+    border-bottom: 2px solid #C8C8C8;
+    border-top: 2px solid #C8C8C8;
+}
+/*选择和判断设置*/
+.con-bd .sin-answer button{
+    width: 56px;line-height: 24px;
+    margin-left: 20px;
+    border: 1px solid #979797;
+    border-radius: 2px;
+}
+
+.answer-wrong{
+    /*background-image: url("../img/skill-test/考试系统错误答案叉.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+    background: red;
+    color: #FFFFFF;
+}
+.answer-yes{
+    background: green; color: #FFFFFF;
+}
+.con-bd .sin-answer .answer-btn-sel{
+    background: #5D87E8;
+    border-radius: 2px;
+    color: #FFFFFF;
+}
+.con-bd .sin-answer div,.con-bd .blank-answer div,.con-bd .short-answer div{
+    float: right;
+    font-size: 18px;color: #646464;
+    cursor: pointer;
+}
+.con-bd .sin-answer div img,.con-bd .blank-answer div img,.con-bd .short-answer div img{
+    position: relative;top: 3px;
+}
+
+/*简答题设置*/
+.test-short .answer{
+    width: 950px;height: auto;
+    margin: 0% auto;
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: 1px solid #979797;
+    border-radius: 2px;
+}
+.test-short .answer textarea{
+    width: 100%;height: 100%;
+    overflow-y: hidden;
+    color: #5481E6;
+    font-size: 16px;
+    text-align: justify;
+}
+
+/*查看答案的样式*/
+.answer-rel{
+    width: 950px;height: auto;
+    padding: 0px 20px 30px;
+    border-bottom: 1px solid #C8C8C8;
+    font-size: 20px;
+    color: #DD381D;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.answer-rel>label{
+    color: #548;
+    font-size: 16px;
+}
+/*取消标记背景色*/
+.answer-yes{
+    font-size: 14px;
+}
+.answer-none-bg{
+    background: #F0FBFF;
+}
+.answer-rel p,.answer-rel textarea{
+    text-align: justify;
+}
+
