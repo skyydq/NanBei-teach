@@ -23,6 +23,6 @@
     });
 
     $('.hd-link2').find('li:eq(0)').click(function () {
-        window.location.href = 'index.html';
+        window.location.href = '../index.html';
     });
 })(jQuery);
